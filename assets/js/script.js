@@ -146,3 +146,21 @@ console.log(pari && divisibilePerTre,"è pari e divisibile per 3")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let latoA = 2
+let latoB = 3
+let latoC = 4
+let perimetro = latoA + latoB + latoC
+
+
+
+if (latoA == latoB && latoB == latoC) {
+   console.log("triangolo equilatero "+ "perimetro "+ perimetro)
+
+}
+else if(latoA !== latoB && latoB !== latoC && latoA !== latoC){
+   console.log("triangolo scaleno "+ "perimetro " + perimetro)
+}
+else if(latoA == latoB || latoB == latoC || latoA == latoC){
+   console.log("isoscele "+ "perimetro "+ perimetro)}
+
+   
